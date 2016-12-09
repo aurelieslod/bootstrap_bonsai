@@ -1,0 +1,253 @@
+/*font-family: 'Raleway', sans-serif;*/
+
+
+/*_______________Row 1 navbar + titre_____ */
+/*body{
+  overflow-x: hidden;
+}*/
+
+.headRow{
+  background-image: url("../images/payments-banner-graphic.png");
+}
+.navbar{
+  background-color: transparent;
+  border: none;
+}
+.imgBrand{
+  height: 30px;
+  margin-top: 20%;
+  margin-left: 30%;
+}
+.navbar-brand{
+  padding: 0;
+  vertical-align: middle;
+}
+/*#textColor{
+  color: white;
+}*/
+#header p{
+  color:white;
+  font-family: "Raleway";
+  font-weight: bold;
+}
+#header a{
+  color:white;
+  font-family: "Raleway";
+  text-transform: uppercase;
+  font-size: .8em;
+  font-weight: bold;
+}
+#header h1{
+  color : white;
+  font-family: "Raleway";
+  font-weight: normal;
+  margin-bottom: 2%;
+}
+.titreHead{
+  margin: 8% 10% 15% 10%;
+}
+#header button{
+  border: none;
+  border-radius: 2px;
+  padding: 1% 3% 1% 3%;
+  margin-top: 2%;
+  text-transform: uppercase;
+  font-size: .8em;
+  font-family: "Raleway";
+  font-weight: bold;
+  color: #6A6AA5;
+}
+
+/*_______________________________________ */
+.containerPayment{
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.paymentsDiv{
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.paymentsDiv img{
+  height: 70px;
+}
+
+.titrePay{
+  padding-top: 5% !important;
+  font-family: "Raleway";
+  font-size: 1.4em;
+}
+.sousTitrePay{
+  font-family: "Raleway";
+}
+
+@media (min-width: 768px){
+  .paymentsDiv:nth-child(2){
+    border-left : 1px solid grey;
+    border-right: 1px solid grey;
+  }
+}
+
+/*_____________________________________*/
+.price{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #F6F9FB;
+  border-top: 1px solid grey;
+}
+.priceText{
+  text-align: center;
+  font-family: "Raleway";
+  text-transform: uppercase;
+  font-size: 1.2em;
+  /*background-color: #F6F9FB;*/
+}
+
+.dollars p{
+  font-size: 4em;
+  color: #8080BE;
+}
+.taxe{
+  padding-top: 2%;
+  padding-left: 0;
+}
+.taxe p:nth-child(1){
+  font-size: 2em;
+  font-family: "Raleway";
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.taxe p:nth-child(2){
+  font-family: "Raleway";
+}
+
+/*_______________________________________*/
+.card{
+  background-color: #4C535C;
+}
+
+.card p{
+  margin : 3%;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Raleway";
+}
+
+/*____________________________*/
+
+
+.part1 .containImg{
+  background-color: #7CD5EF;
+  padding-top: 8%;
+  max-height: 500px;
+  overflow: hidden;
+}
+.part2 .containImg{
+  background-color: #8080BE;
+  padding-top: 8%;
+  max-height: 500px;
+  overflow: hidden;
+}
+.part3 .containImg{
+  background-color: #7CD5EF;
+  padding-top: 8%;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+/*.containImg img{
+  border-radius: 4%;
+}*/
+/*le border radius c'est pas beau !! */
+.containText{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.containP{
+  /*border: 1px solid black;*/
+  vertical-align: middle;
+  width: 60%;
+  height: 250px;
+}
+.containP p:nth-child(1){
+  font-family: "Raleway";
+  font-size : 2em;
+}
+.containP p:nth-child(2){
+  font-family: "Raleway";
+  color: grey;
+}
+.containP p:nth-child(3){
+  font-family: "Raleway";
+  color: grey;
+}
+
+.itText{
+  font-style: italic;
+}
+
+/*___________________________________*/
+.ready{
+  padding: 5%;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 1.3em;
+  border-top: 1px solid grey;
+}
+.free{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.ready button{
+background-color :#00AA82;
+color: white;
+font-family: "Raleway";
+text-transform: uppercase;
+padding : 1% 4% 1% 4%;
+}
+
+/* ______________________________________*/
+.footer{
+  background-color: #242629;
+}
+
+.footer div{
+  padding-top: 2%;
+}
+.footer ul{
+  list-style: none;
+  font-family: "Raleway";
+}
+.footer li{
+  margin-top: 5px;
+}
+.footer li p{
+  color: grey;
+  font-size: 1.2em;
+  padding: 5px;
+}
+.footer li a{
+  color: white;
+  /*padding: 5px;*/
+}
+
+.credits p{
+  color: grey;
+  font-size: .9em;
+}
+/*.credit{
+  padding-bottom: 2%;
+}*/
+.bulle{
+  position: fixed;
+  border-radius: 50%;
+  background-color: #8080BE;
+  bottom: 30px;
+  right: 30px;
+}
+.bulle i{
+  color: white;
+  padding: 15px;
+}
