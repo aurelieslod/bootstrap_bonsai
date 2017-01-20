@@ -1,253 +1,141 @@
-/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Oxygen', sans-serif;*/
+body{
+  background-image: url('../images/fumée.jpeg');
+  /*background-repeat: no-repeat;*/
+  background-color: black;
+  background-size: contain;
 
 
-/*_______________Row 1 navbar + titre_____ */
-/*body{
-  overflow-x: hidden;
-}*/
+}
 
-.headRow{
-  background-image: url("../images/payments-banner-graphic.png");
+#contain{
+  height: 2000px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background-color: white;
+  border: 1px solid #d72516;
 }
-.navbar{
-  background-color: transparent;
-  border: none;
+
+#title{
+  background-color: #262626;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
 }
-.imgBrand{
-  height: 30px;
-  margin-top: 20%;
-  margin-left: 30%;
+#header{
+  background-color: white;
+  height: 450px;
+  background-image: url('../images/tricky_back.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.navbar-brand{
-  padding: 0;
-  vertical-align: middle;
-}
-/*#textColor{
+h1{
+  text-align: center;
   color: white;
-}*/
-#header p{
-  color:white;
-  font-family: "Raleway";
-  font-weight: bold;
+  font-family: 'Oxygen', sans-serif;
 }
-#header a{
-  color:white;
-  font-family: "Raleway";
-  text-transform: uppercase;
-  font-size: .8em;
-  font-weight: bold;
-}
-#header h1{
-  color : white;
-  font-family: "Raleway";
-  font-weight: normal;
-  margin-bottom: 2%;
-}
-.titreHead{
-  margin: 8% 10% 15% 10%;
-}
-#header button{
-  border: none;
-  border-radius: 2px;
-  padding: 1% 3% 1% 3%;
-  margin-top: 2%;
-  text-transform: uppercase;
-  font-size: .8em;
-  font-family: "Raleway";
-  font-weight: bold;
-  color: #6A6AA5;
-}
-
-/*_______________________________________ */
-.containerPayment{
-  padding-top: 4%;
-  padding-bottom: 4%;
-}
-.paymentsDiv{
+h2{
   text-align: center;
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-
-.paymentsDiv img{
-  height: 70px;
-}
-
-.titrePay{
-  padding-top: 5% !important;
-  font-family: "Raleway";
-  font-size: 1.4em;
-}
-.sousTitrePay{
-  font-family: "Raleway";
-}
-
-@media (min-width: 768px){
-  .paymentsDiv:nth-child(2){
-    border-left : 1px solid grey;
-    border-right: 1px solid grey;
-  }
-}
-
-/*_____________________________________*/
-.price{
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background-color: #F6F9FB;
-  border-top: 1px solid grey;
-}
-.priceText{
-  text-align: center;
-  font-family: "Raleway";
-  text-transform: uppercase;
-  font-size: 1.2em;
-  /*background-color: #F6F9FB;*/
-}
-
-.dollars p{
-  font-size: 4em;
-  color: #8080BE;
-}
-.taxe{
-  padding-top: 2%;
-  padding-left: 0;
-}
-.taxe p:nth-child(1){
-  font-size: 2em;
-  font-family: "Raleway";
-  text-transform: uppercase;
-  margin-bottom: 0;
-}
-.taxe p:nth-child(2){
-  font-family: "Raleway";
-}
-
-/*_______________________________________*/
-.card{
-  background-color: #4C535C;
-}
-
-.card p{
-  margin : 3%;
+  font-family: 'Oxygen', sans-serif;
   color: white;
+
+}
+.fa-music{
+  color : #d72516;
+}
+#infos{
+  padding-bottom: 10%;
+}
+#news{
+  height: 500px;
+  border: 1px solid #d72516;
+  margin-top: 10%;
+  background-color: #d72516;
+  position: absolute;
+}
+
+#album{
+  height: 160px;
+  width: 160px;
+  background-image: url('../images/skilled.jpeg');
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#news p{
   text-align: center;
+  color: white;
+  font-family: 'Oxygen', sans-serif;
   font-size: 1.5em;
-  font-family: "Raleway";
 }
-
-/*____________________________*/
-
-
-.part1 .containImg{
-  background-color: #7CD5EF;
-  padding-top: 8%;
-  max-height: 500px;
-  overflow: hidden;
+#date{
+  height: 200px;
+  border: 1px solid #d72516;
+  margin-top: 10%;
+  background-color: #d72516;
 }
-.part2 .containImg{
-  background-color: #8080BE;
-  padding-top: 8%;
-  max-height: 500px;
-  overflow: hidden;
-}
-.part3 .containImg{
-  background-color: #7CD5EF;
-  padding-top: 8%;
-  max-height: 500px;
-  overflow: hidden;
-}
-
-/*.containImg img{
-  border-radius: 4%;
-}*/
-/*le border radius c'est pas beau !! */
-.containText{
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-.containP{
-  /*border: 1px solid black;*/
-  vertical-align: middle;
-  width: 60%;
-  height: 250px;
-}
-.containP p:nth-child(1){
-  font-family: "Raleway";
-  font-size : 2em;
-}
-.containP p:nth-child(2){
-  font-family: "Raleway";
-  color: grey;
-}
-.containP p:nth-child(3){
-  font-family: "Raleway";
-  color: grey;
-}
-
-.itText{
-  font-style: italic;
-}
-
-/*___________________________________*/
-.ready{
-  padding: 5%;
+#date p{
+  color: lightgrey;
   text-align: center;
-  font-family: "Raleway";
-  font-size: 1.3em;
-  border-top: 1px solid grey;
 }
-.free{
-  text-transform: uppercase;
-  font-weight: bold;
-}
-.ready button{
-background-color :#00AA82;
-color: white;
-font-family: "Raleway";
-text-transform: uppercase;
-padding : 1% 4% 1% 4%;
+#live{
+  height: 250px;
+  border: 1px solid #d72516;
+  margin-top: 10%;
+  background-image: url('../images/tricky-live2.jpg');
+  background-size : cover;
+  background-repeat: no-repeat;
 }
 
-/* ______________________________________*/
-.footer{
-  background-color: #242629;
-}
+#form{
+  padding-top: 7%;
+  padding-bottom: 10%;
 
-.footer div{
-  padding-top: 2%;
 }
-.footer ul{
-  list-style: none;
-  font-family: "Raleway";
+#formLeft{
+  height: 500px;
+
 }
-.footer li{
-  margin-top: 5px;
+#formRight{
+  height: 500px;
+  background-color: #d72516;
+
 }
-.footer li p{
-  color: grey;
-  font-size: 1.2em;
-  padding: 5px;
+#logo{
+  height: 500px;
+  background-size: cover;
+  background-image: url('../images/tricky-logo.jpg');
 }
-.footer li a{
+.form-group{
+  text-align: center;
+}
+label{
+  margin-top: 5%;
   color: white;
-  /*padding: 5px;*/
+  font-family: 'Oxygen', sans-serif;
 }
+textarea{
+  resize: none;
+}
+#submit{
+  display: block;
+  margin: auto;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
 
-.credits p{
-  color: grey;
-  font-size: .9em;
 }
-/*.credit{
-  padding-bottom: 2%;
-}*/
-.bulle{
-  position: fixed;
-  border-radius: 50%;
-  background-color: #8080BE;
-  bottom: 30px;
-  right: 30px;
+input{
+  border-radius: 0 !important;
 }
-.bulle i{
-  color: white;
-  padding: 15px;
+#error{
+  font-family: 'Oxygen', sans-serif;
+
+}
+#answer{
+  display: none;
+}
+.modal-content{
+  background-color: rgba(255, 255, 255, .7);
+  color: black;
 }
